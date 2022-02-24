@@ -31,3 +31,87 @@
 }
 
 /* #endregion Reset_page  */
+
+/*  #region Debug */
+
+.bg_red{
+    background-color: red;
+}
+
+.bg_green{
+    background-color: green;
+}
+
+.bg_yellow{
+    background-color: yellow;
+}
+
+.bg_purple{
+    background-color: purple;
+}
+
+.bg_brown{
+    background-color: brown;
+}
+
+.bg_blue{
+    background-color: blue;
+}
+
+.h_50{
+    height: 50px;
+}
+
+.h_100{
+    height: 100px;
+}
+
+.h_150{
+    height: 150px;
+}
+
+.h_200{
+    height: 200px;
+}
+
+.h_300{
+    height: 300px;
+}
+
+
+/*  #endregion Debug */
+
+/* #region Utility */
+
+.row{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.left{
+    float: left;
+  }
+
+.col_50{
+    width: 50%;
+}
+
+.col_33{
+    width: 33%;
+}
+
+.col_100{
+    width: 100%;
+}
+
+
+
+/* #endregion Utility */
+
+/* #region Header */
+
+
+
+/* #endregion Header */
