@@ -110,6 +110,13 @@
         display: inline-block;
     }
 
+    span{
+        display: inline-block;
+    }
+
+    img{
+        width: 100%;
+    }
     /* #endregion Common */
 
     /* #region Utility */
@@ -143,11 +150,18 @@
     /* #endregion Text */
 
     /* #region Margin */
-    
+    .margin_right_5{
+        margin-right: 5%;
+    }
+
     .margin_side_5{
         margin: 0 5%;
     }
     
+    .margin_bottom_20{
+        margin-bottom: 20px;
+    }
+
     .margin_bottom_50{
         margin-bottom: 50px;
     }
@@ -185,6 +199,10 @@
         padding-bottom: 50px;
     }
     
+    .padding_top_100{
+        padding-top: 100px;
+    }
+
     .padding_top_200{
         padding-top: 200px;
     }
@@ -243,10 +261,25 @@
     .button_sm{
         font-size: 18px;
         padding: 18px 25px;
-    
+        text-decoration: none;
+    }
+
+    .button_md{
+        font-size: 22px;
+        padding: 15px 30px;
+        text-decoration: none;
     }
 
     /* #endregion Button */
+
+    /* #region Position */
+
+    .p_relative{
+        position: relative;
+    }
+
+    /* #endregion Position */
+
     /* #endregion Utility */
     
     /* #region Header */
@@ -276,3 +309,45 @@
         margin-right: 0;
     }
     /* #endregion Header */
+
+    /* #region Main */
+
+    /* #region Section_hero */
+    
+    .section_hero{
+        background-color: var(--bg_hero);
+    }
+    
+    .title_hero{
+        font-size: 110px;
+        font-weight: bold;
+        line-height: 150px;
+        letter-spacing: 4px;
+    }
+
+    .text_hero{
+        font-size: 24px;
+        line-height: 35px;
+        letter-spacing: 0.4px;
+    }
+
+    .text_sub_hero{
+        font-size: 18px;
+        letter-spacing: 0.6px;
+        margin-bottom: 75px;
+    }
+
+    .down_arrow{
+        width: 50px;
+        margin-bottom: 167px;
+    }
+
+    .img_jumbo{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    /* #endregion Section_hero */
+
+    /* #endregion Main */
