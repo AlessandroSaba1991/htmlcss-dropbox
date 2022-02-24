@@ -58,10 +58,6 @@
     background-color: blue;
 }
 
-.h_50{
-    height: 50px;
-}
-
 .h_100{
     height: 100px;
 }
@@ -77,6 +73,19 @@
 .h_300{
     height: 300px;
 }
+
+.h_500{
+    height: 500px;
+}
+
+.h_700{
+    height: 700px;
+}
+
+.h_900{
+    height: 900px;
+}
+
 
 
 /*  #endregion Debug */
@@ -94,19 +103,59 @@
     float: left;
   }
 
+.margin_5{
+    margin: 0 5%;
+}
+
+.margin_bottom_50{
+    margin-bottom: 50px;
+}
+
+.margin_bottom_100{
+    margin-bottom: 100px;
+}
+
+.margin_bottom_150{
+    margin-bottom: 150px;
+}
+
+.margin_bottom_150{
+    margin-bottom: 150px;
+}
+
+.margin_top_200{
+    margin-top: 200px;
+}
+
+.col_30{
+    width: 30%;
+}
+
+.col_35{
+    width: 35%;
+}
+
 .col_50{
     width: 50%;
 }
 
-.col_33{
-    width: 33%;
+.col_65{
+    width: 65%;
 }
 
 .col_100{
     width: 100%;
 }
 
+.container_lg{
+    width: 80%;
+    margin: 0 auto;
+}
 
+.container_sm{
+    width: 80%;
+    margin: 200px auto 0;
+}
 
 /* #endregion Utility */
 
