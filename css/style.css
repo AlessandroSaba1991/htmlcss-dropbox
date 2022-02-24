@@ -1,0 +1,33 @@
+/* #region Color */
+:root{
+
+--bg_hero: rgba(180, 208, 231, 1);
+--button: rgba(0, 97, 255, 1);
+--3rd_box: rgba(0, 147, 206, 1);
+--7th_box_side: rgba(13, 36, 129, 1);
+--2nd_box: rgba(97, 8, 43, 1);
+--footer_text: rgba(115, 115, 115, 1);
+--text_table: rgba(120, 134, 146, 1);
+--1st_box: rgba(162, 211, 155, 1);
+--1st_box_side: rgba(208, 233, 205, 1);
+--5th_box: rgba(213, 0, 31, 1);
+--line_near_footer: rgba(222, 222, 223, 1);
+--box_lg: rgba(245, 245, 245, 1);
+--4th_box: rgba(255, 28, 28, 1);
+--8th_box: rgba(255, 216, 48, 1);
+
+}
+
+/* #endregion Color */
+
+
+
+/* #region Reset_page */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion Reset_page  */
