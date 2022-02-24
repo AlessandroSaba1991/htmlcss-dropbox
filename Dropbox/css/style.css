@@ -1,6 +1,8 @@
 /* #region Color */
 :root{
 
+    --light:rgba(255,255,255,1);
+    --dark:rgba(0,0,0,1);
     --bg_hero: rgba(180, 208, 231, 1);
     --button: rgba(0, 97, 255, 1);
     --3rd_box: rgba(0, 147, 206, 1);
@@ -30,6 +32,9 @@
         box-sizing: border-box;
     }
     
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
     /* #endregion Reset_page  */
     
     /*  #region Debug */
@@ -98,6 +103,15 @@
     
     /*  #endregion Debug */
     
+
+    /* #region Common */
+
+    a{
+        display: inline-block;
+    }
+
+    /* #endregion Common */
+
     /* #region Utility */
     
     .row{
@@ -110,6 +124,25 @@
     .left{
         float: left;
     }
+    /* #region Colour */
+    
+    .blue{
+        color: var(--light);
+        background-color: var(--button);
+        
+    }
+    
+    /* #endregion Colour */
+    
+    /* #region Text */
+
+    .text_right{
+        text-align: right;
+    }
+
+    /* #endregion Text */
+
+    /* #region Margin */
     
     .margin_side_5{
         margin: 0 5%;
@@ -138,7 +171,16 @@
     .margin_top_200{
         margin-top: 200px;
     }
+
+    /* #endregion Margin */
+
+    /* #region Padding */
     
+
+    .padding_30_40{
+        padding: 30px 40px;
+    }
+
     .padding_bottom_50{
         padding-bottom: 50px;
     }
@@ -146,6 +188,11 @@
     .padding_top_200{
         padding-top: 200px;
     }
+    
+    
+    /* #endregion Padding */
+    
+    /* #region Col */
     
     .col_20{
         width: 20%;
@@ -175,6 +222,10 @@
         width: 100%;
     }
     
+    /* #endregion Col */
+   
+    /* #region Container */
+    
     .container_lg{
         width: 80%;
         margin: 0 auto;
@@ -184,11 +235,44 @@
         width: 80%;
         margin: 200px auto 0;
     }
+
+    /* #endregion Container */
+
+    /* #region Button */
     
+    .button_sm{
+        font-size: 18px;
+        padding: 18px 25px;
+    
+    }
+
+    /* #endregion Button */
     /* #endregion Utility */
     
     /* #region Header */
     
+    .logo{
+        width: 200px;
+        display: inline-block;
+        padding-right: 40px;
+        vertical-align: middle;
+        margin-top: -1px;
+    }
+
+    .logo>img{
+        width: 100%;
+    }
+
+    .col_50>a{
+        text-decoration: none;
+        color: var(--dark);
+        margin: 0 55px;
+        font-size: 18px;
+        line-height: 0px;
+    }
     
-    
+    .col_50>.button_sm{
+        color: var(--light);
+        margin-right: 0;
+    }
     /* #endregion Header */
