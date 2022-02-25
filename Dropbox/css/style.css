@@ -129,6 +129,9 @@
         float: left;
     }
 
+    .left{
+        float: left;
+    }
     .fa-check{
         color: var(--button);
     }
@@ -240,7 +243,14 @@
     /* #endregion Padding */
     
     /* #region Col */
-    
+    .col_7{
+        width: 5%;
+        margin-right: 2%;
+
+    }
+    .col_93{
+        width: 93%;
+    }
     .col_20{
         width: 20%;
     }
@@ -315,6 +325,7 @@
         position: relative;
     }
 
+    
     /* #endregion Position */
 
     /* #endregion Utility */
@@ -416,6 +427,7 @@
 
     .header_table{
         border-bottom: none;
+        padding: 10px 0;
     }
     
     .header_table >span{
@@ -448,7 +460,7 @@
     }
 
     .plans_description{
-        margin-bottom: 15px;
+        margin-bottom: 40px;
     }
 
     .plans_try >li{
@@ -465,6 +477,7 @@
         color: var(--button);
     }
 
+   
     .plans_points > li:first-child{
         font-weight: bold;
         font-size: 14px;
