@@ -1,6 +1,7 @@
 /* #region Var */
 :root{
-
+    
+    --price: rgb(80, 122, 156);
     --light:rgba(255,255,255,1);
     --dark:rgba(0,0,0,1);
     --bg_hero: rgba(180, 208, 231, 1);
@@ -110,6 +111,9 @@
         width: 100%;
     }
 
+    ul{
+        list-style: none;
+    }
     /* #endregion Common */
 
     /* #region Utility */
@@ -121,10 +125,13 @@
         width: 100%;
     }
     
-    .left{
+    [class^="col_"]{
         float: left;
     }
 
+    .fa-check{
+        color: var(--button);
+    }
     /* #region Circle */
     
     .circle{
@@ -167,6 +174,7 @@
     /* #endregion Text */
 
     /* #region Margin */
+
     .margin_right_5{
         margin-right: 5%;
     }
@@ -293,6 +301,12 @@
         text-decoration: none;
     }
 
+    .button_lg{
+        font-size: 13px;
+        padding: 6px 34px;
+        text-decoration: none;
+        
+    }
     /* #endregion Button */
 
     /* #region Position */
@@ -380,6 +394,84 @@
     .fattura{
         font-size: 14px;
         margin-right: 13px;
+    }
+
+    .checkbox{
+        margin-bottom: 40px;
+    }
+
+     .plans_type,
+     .plans_description,
+     .plans_try,
+     .plans_points{
+        
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .header_table,
+    .main_table{
+        border: 1px solid var(--line_near_footer);
+    }
+
+    .header_table{
+        border-bottom: none;
+    }
+    
+    .header_table >span{
+        font-size: 15px;
+    }
+    .main_table{
+        padding: 0 27px;
+    }
+    .plans_type{
+        margin-bottom: 40px;
+    }
+
+    .plans_title{
+        font-size: 22px;
+        margin: 28px 0 16px;
+    }
+
+    .plans_price{
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+
+    .price_description{
+        font-size: 13px;
+        color: var(--price);
+    }
+
+    .plans_description > li{
+        padding-bottom: 23px;
+    }
+
+    .plans_description{
+        margin-bottom: 15px;
+    }
+
+    .plans_try >li{
+        padding-bottom: 23px;
+    }
+    
+    .plans_try  span{
+        padding-right: 3px;
+        padding-bottom: 23px;
+        border-bottom: 1px solid var(--line_near_footer);
+    }
+
+    .plans_try > a {
+        color: var(--button);
+    }
+
+    .plans_points > li:first-child{
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .plans_points > li{
+        padding-bottom: 26px;
     }
     /* #endregion Buy_Dropbox */
 
