@@ -156,11 +156,7 @@
 
      /* #region Colour */
     
-    .blue{
-        color: var(--light);
-        background-color: var(--button);
-        
-    }
+    
     
     /* #endregion Colour */
     
@@ -194,6 +190,10 @@
         margin-bottom: 50px;
     }
     
+    .margin_bottom_75{
+        margin-bottom: 75px;
+    }
+
     .margin_bottom_100{
         margin-bottom: 100px;
     }
@@ -271,6 +271,14 @@
         width: 50%;
     }
     
+    .col_55{
+        width: 55%;
+    }
+
+    .col_60{
+        width: 60%;
+    }
+
     .col_65{
         width: 65%;
     }
@@ -316,6 +324,17 @@
         padding: 6px 34px;
         text-decoration: none;
         
+    }
+
+    .blue{
+        color: var(--light);
+        background-color: var(--button);
+    }
+
+    .dark{
+        color: var(--dark);
+        background-color: var(--light);
+        border: 1px solid var(--dark);
     }
     /* #endregion Button */
 
@@ -520,4 +539,47 @@
     }
     /* #endregion Section_plans */
 
+    /* #region Section_search */
+
+    .search_text{
+        padding-top: 35px;
+    }
+
+    .search_text >h3{
+        font-size: 22px;
+        margin-bottom: 28px;
+    }
+
+    .search_text>p{
+        font-size: 13.5px;
+        margin-bottom: 24px;
+        line-height: 26px;
+    }
+
+    /* #endregion Section_search */
+
+    /* #region Section_business */
+
+    .business_title>h2{
+        font-size: 35px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .business_text>h3{
+        font-size: 22px;
+        margin-bottom: 28px;
+    }
+
+    .business_text>p{
+        font-size: 13.5px;
+        margin-bottom: 24px;
+        line-height: 22px;
+    }
+
+    .business_text span{
+        text-decoration: underline;
+    }
+    
+    /* #endregion Section_business */
     /* #endregion Main */
