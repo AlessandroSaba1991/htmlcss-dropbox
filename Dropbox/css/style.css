@@ -109,6 +109,7 @@
 
     img{
         width: 100%;
+        max-height: 100%;
     }
 
     ul{
@@ -156,7 +157,42 @@
 
      /* #region Colour */
     
+    .bg_1{
+        background-color: var(--1st_box);
+        border: 10px solid var(--1st_box_side);
+    }
     
+    .bg_2{
+        background-color: var(--2nd_box);
+    }
+
+    .bg_3{
+        background-color: var(--3rd_box);
+    }
+
+    .bg_4{
+        background-color: var(--4th_box);
+    }
+
+    .bg_5{
+        background-color: var(--5th_box);
+    }
+
+    .bg_6{
+        background-color: var(--bg_hero);
+    }
+
+    .bg_7{
+        background-color: var(--7th_box_side);
+    }
+
+    .bg_8{
+        background-color: var(--8th_box);
+    }
+
+    .bg_lg{
+        background-color: var(--box_lg);
+    }
     
     /* #endregion Colour */
     
@@ -239,7 +275,9 @@
         padding-top: 200px;
     }
     
-    
+    .padding_top_bottom_110{
+        padding: 110px 0;
+    }
     /* #endregion Padding */
     
     /* #region Col */
@@ -582,4 +620,84 @@
     }
     
     /* #endregion Section_business */
+   
+    /* #region Section_partners */
+
+    .partners_text{
+        width: 500px;
+        margin-bottom: 50px;
+    }
+
+    .partners_text>h2{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .partners_text>a{
+        color: var(--button);
+        font-size: 14px;
+    }
+
+    .col_50>.container{
+        height: 216px;
+    }
+
+    .partners_img{
+        width: 52%;
+        height: 40%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);     
+    }
+
+    .partners_img>img{
+        filter: invert(1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .bg_1 > .partners_img{
+        width: 60%;
+    }
+
+    .col_40_container{
+        height: 432px;
+        padding: 45px;
+
+    }
+
+    .col_40_container > *{
+        float: left;
+    }
+
+    .col_40_img{
+        width: 130px;
+    }
+
+    .col_40_img > hr{
+        margin-top: 25px;
+        width: 47px;
+        border-color: rgb(245 245 245 / 36%);
+    }
+
+    .col_40_container>p{
+        margin-top: 45px;
+        font-size: 14px;
+    }
+
+    .col_50>h2{
+        font-size: 35px;
+        color: var(--2nd_box);
+    }
+
+    .section_partners a{
+        border: none;
+    }
+    /* #endregion Section_partners */
+   
+   
+   
     /* #endregion Main */
