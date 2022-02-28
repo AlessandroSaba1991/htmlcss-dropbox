@@ -1,5 +1,6 @@
-/* #region Var */
-:root{
+    /* #region Var */
+    
+    :root{
     
     --price: rgb(80, 122, 156);
     --light:rgba(255,255,255,1);
@@ -22,71 +23,7 @@
     }
     
     /* #endregion Var */
-       
-    /*  #region Debug */
-    
-    .bg_red{
-        background-color: red;
-    }
-    
-    .bg_green{
-        background-color: green;
-    }
-    
-    .bg_yellow{
-        background-color: yellow;
-    }
-    
-    .bg_purple{
-        background-color: purple;
-    }
-    
-    .bg_brown{
-        background-color: brown;
-    }
-    
-    .bg_blue{
-        background-color: blue;
-    }
-    
-    .bg_pink{
-        background-color: pink;
-    }
-    
-    .h_100{
-        height: 100px;
-    }
-    
-    .h_150{
-        height: 150px;
-    }
-    
-    .h_200{
-        height: 200px;
-    }
-    
-    .h_250{
-        height: 250px;
-    }
-    
-    .h_300{
-        height: 300px;
-    }
-    
-    .h_500{
-        height: 500px;
-    }
-    
-    .h_700{
-        height: 700px;
-    }
-    
-    .h_900{
-        height: 900px;
-    }
-    
-    /*  #endregion Debug */
-    
+           
     /* #region Common */
 
     *{
@@ -115,6 +52,7 @@
     ul{
         list-style: none;
     }
+
     /* #endregion Common */
 
     /* #region Utility */
@@ -130,12 +68,10 @@
         float: left;
     }
 
-    .left{
-        float: left;
-    }
     .fa-check{
         color: var(--button);
     }
+
     /* #region Circle */
     
     .circle{
@@ -155,7 +91,7 @@
     
     /* #endregion Circle */
 
-     /* #region Colour */
+     /* #region Colour BG */
     
     .bg_1{
         background-color: var(--1st_box);
@@ -194,7 +130,7 @@
         background-color: var(--box_lg);
     }
     
-    /* #endregion Colour */
+    /* #endregion Colour BG */
     
     /* #region Text */
 
@@ -221,58 +157,29 @@
     .margin_bottom_10{
         margin-bottom: 10px;
     }
-
-    .margin_bottom_50{
-        margin-bottom: 50px;
-    }
     
     .margin_bottom_75{
         margin-bottom: 75px;
     }
 
-    .margin_bottom_100{
-        margin-bottom: 100px;
-    }
-    
     .margin_bottom_150{
         margin-bottom: 150px;
-    }
-    
-    .margin_bottom_200{
-        margin-bottom: 200px;
-    }
-    
-    .margin_top_100{
-        margin-top: 100px;
     }
     
     .margin_top_160{
         margin-top: 160px;
     }
 
-    .margin_top_200{
-        margin-top: 200px;
-    }
-
     /* #endregion Margin */
 
     /* #region Padding */
     
-
     .padding_20{
         padding: 20px;
-    }
-
-    .padding_bottom_50{
-        padding-bottom: 50px;
     }
     
     .padding_top_70{
         padding-top: 70px;
-    }
-
-    .padding_top_200{
-        padding-top: 200px;
     }
     
     .padding_top_bottom_110{
@@ -302,10 +209,6 @@
         width: 30%;
     }
     
-    .col_35{
-        width: 35%;
-    }
-    
     .col_40{
         width: 40%;
     }
@@ -316,10 +219,6 @@
     
     .col_55{
         width: 55%;
-    }
-
-    .col_60{
-        width: 60%;
     }
 
     .col_65{
@@ -373,12 +272,12 @@
         
     }
 
-    .blue{
+    .btn_blue{
         color: var(--light);
         background-color: var(--button);
     }
 
-    .dark{
+    .btn_dark{
         color: var(--dark);
         background-color: var(--light);
         border: 1px solid var(--dark);
@@ -421,6 +320,7 @@
         color: var(--light);
         margin-right: 0;
     }
+
     /* #endregion Header */
 
     /* #region Main */
@@ -769,4 +669,5 @@
     .language i:last-child{
         font-size: 11px;
     }
+    
     /* #endregion Footer */
