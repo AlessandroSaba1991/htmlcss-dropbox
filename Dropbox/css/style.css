@@ -281,6 +281,11 @@
     /* #endregion Padding */
     
     /* #region Col */
+
+    .col_5{
+        width: 5%;
+    }
+
     .col_7{
         width: 5%;
         margin-right: 2%;
@@ -321,6 +326,10 @@
         width: 65%;
     }
     
+    .col_95{
+        width: 95%;
+    }
+
     .col_100{
         width: 100%;
     }
@@ -698,6 +707,27 @@
     }
     /* #endregion Section_partners */
    
+    /* #region Section_question */
+
+    .section_questions h2{
+        font-size: 29px;
+        margin-bottom: 40px;
+    }
+
+    .section_questions h4{
+        font-size: 14px;
+        padding: 30px 0;
+    }
+
+    .section_questions i{
+        padding: 30px 0;
+    }
+
+    .section_questions hr{
+        border-color: rgb(119 136 153 / 8%);
+    }
+    
+    /* #endregion Section_question */
    
    
     /* #endregion Main */
