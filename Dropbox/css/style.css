@@ -726,8 +726,47 @@
     .section_questions hr{
         border-color: rgb(119 136 153 / 8%);
     }
-    
+
     /* #endregion Section_question */
    
-   
     /* #endregion Main */
+    
+    /* #region Footer */
+
+    .footer{
+        background-color: var(--dark);
+        color: var(--light);
+    }
+
+    .footer h3{
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+
+    .footer a{
+        text-decoration: none;
+        color: var(--light);
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .footer hr{
+        border-color: var(--footer_text);
+        width: 115px;
+    }
+
+    .language{
+        color: var(--footer_text);
+        font-size: 13px;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .language i:first-child{
+        font-size: 16px;
+    }
+
+    .language i:last-child{
+        font-size: 11px;
+    }
+    /* #endregion Footer */
